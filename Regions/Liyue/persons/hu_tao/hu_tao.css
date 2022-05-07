@@ -486,7 +486,7 @@ body {
   height: 148px;
   overflow-y: auto;
   left: 623.5px;
-  top: 1215.5px;
+  top: 1340px;
   z-index: 5;
 }
 
@@ -505,7 +505,7 @@ body {
   height: 148px;
   overflow-y: auto;
   left: 623.5px;
-  top: 1604px;
+  top: 1710px;
   z-index: 6;
 }
 
@@ -523,7 +523,7 @@ body {
   width: 312px;
   height: 148px;
   left: 623.5px;
-  top: 2017.5px;
+  top: 2373px;
   z-index: 5;
 }
 
@@ -1264,7 +1264,7 @@ body {
 .description_w1 {
   position: relative;
   font-family: "CMU_Typewriter_Text_Bold";
-  font-size: 20px;
+  font-size: 19px;
   top: -40px;
   left: 160px;
   width: 440px;
@@ -1274,14 +1274,14 @@ body {
   position: relative;
   width: 180px;
   height: 165px;
-  top: -205px;
+  top: -246px;
   left: -50px;
 }
 
 .rarity1 {
   position: relative;
   left: -10px;
-  top: -208px;
+  top: -248px;
 }
 
 .back_weapon1 img {
@@ -1315,15 +1315,15 @@ body {
 .weapon2 img {
   position: relative;
   width: 150px;
-  height: 170px;
-  top: -158px;
-  left: -21px;
+  height: 165px;
+  top: -233px;
+  left: -25px;
 }
 
 .rarity2 {
   position: relative;
-  left: 0px;
-  top: -161px;
+  left: -10px;
+  top: -235px;
 }
 
 .back_weapon2 img {
@@ -1357,15 +1357,15 @@ body {
 .weapon3 img {
   position: relative;
   width: 150px;
-  height: 170px;
-  top: -183px;
-  left: -20px;
+  height: 165px;
+  top: -233px;
+  left: -25px;
 }
 
 .rarity3 {
   position: relative;
   left: 0px;
-  top: -188px;
+  top: -235px;
 }
 
 .back_weapon3 img {
@@ -1390,24 +1390,24 @@ body {
 .description_w4 {
   position: relative;
   font-family: "CMU_Typewriter_Text_Bold";
-  font-size: 20px;
+  font-size: 17px;
   top: -40px;
   left: 160px;
-  width: 440px;
+  width: 430px;
 }
 
 .weapon4 img {
   position: relative;
   width: 150px;
-  height: 170px;
-  top: -183px;
+  height: 165px;
+  top: -255px;
   left: -20px;
 }
 
 .rarity4 {
   position: relative;
   left: 0px;
-  top: -188px;
+  top: -258px;
 }
 
 .back_weapon4 img {
@@ -1441,15 +1441,15 @@ body {
 .weapon5 img {
   position: relative;
   width: 150px;
-  height: 170px;
-  top: -183px;
-  left: -20px;
+  height: 165px;
+  top: -233px;
+  left: -25px;
 }
 
 .rarity5 {
   position: relative;
   left: 0px;
-  top: -188px;
+  top: -238px;
 }
 
 .back_weapon5 img {
@@ -2021,7 +2021,7 @@ body {
 }
 
 .person_t2 {
-  font-size: 22px;
+  font-size: 25.5px;
   color: rgb(0, 0, 0);
   font-family: "CMU_Typewriter_Text_Bold";
   line-height: 0.9;
@@ -2501,7 +2501,7 @@ body {
 }
 
 .person_t4 {
-  font-size: 24px;
+  font-size: 25.5px;
   color: rgb(0, 0, 0);
   font-family: "CMU_Typewriter_Text_Bold";
   line-height: 0.9;
