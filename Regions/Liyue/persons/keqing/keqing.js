@@ -32,7 +32,7 @@ function myFunction1() {
 $(document).ready(function () {
 
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 6800) {
+    if ($(this).scrollTop() > 7100) {
       $('.scrollup').fadeIn();
     } else {
       $('.scrollup').fadeOut();

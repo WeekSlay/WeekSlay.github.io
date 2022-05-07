@@ -49,7 +49,7 @@ body {
     "content"
     "foot";
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 20px 7755px 100px;
+  grid-template-rows: 100px 20px 7970px 100px;
   position: absolute;
   top: 0;
   left: 0;
@@ -177,7 +177,7 @@ body {
   z-index: 5;
 }
 
-/*Ембер*/
+/*Ке Цин*/
 #rectangle_p {
   border-radius: 10px;
   background-color: rgb(203, 200, 197);
@@ -224,7 +224,7 @@ body {
   z-index: 3;
 }
 
-/*Таблиця під Ембер*/
+/*Таблиця під Ке Цин*/
 #table {
   position: absolute;
   font-family: BenguiatGothicC;
@@ -321,7 +321,7 @@ body {
   left: 20px;
   width: 840px;
   height: 48px;
-  top: 520px;
+  top: 565px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -342,7 +342,7 @@ body {
   text-align: left;
   position: absolute;
   left: 20px;
-  top: 520px;
+  top: 565px;
   width: 630px;
   height: 120px;
   margin: 15px 0;
@@ -368,7 +368,7 @@ body {
   left: 20px;
   width: 840px;
   height: 48px;
-  top: 780px;
+  top: 1080px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -389,7 +389,7 @@ body {
   text-align: left;
   position: absolute;
   left: 20px;
-  top: 780px;
+  top: 1080px;
   width: 630px;
   height: 120px;
   margin: 15px 0;
@@ -404,11 +404,28 @@ body {
   transform: translateY(0%);
 }
 
+#keqing_photo img {
+  position: absolute;
+  width: 340px;
+  height: 420px;
+  top: 1030px;
+  left: 620.5px;
+}
+
+#keqing_photo img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  top: 1004px;
+  left: 603.5px;
+  z-index: 3;
+}
+
 /*Основні навики*/
 #line1 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 1090px;
+  top: 1445px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -423,7 +440,7 @@ body {
   text-align: center;
   width: 840px;
   height: 48px;
-  top: 1115px;
+  top: 1470px;
   left: 70px;
   margin: 0px 0;
   opacity: 0;
@@ -439,19 +456,18 @@ body {
 
 #table1 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: none;
   color: #222;
   margin: 1em 0;
   border: 4px solid #a2a9b1;
   border-collapse: collapse;
   width: 917px;
-  top: 1165px;
+  top: 1520px;
   left: 22px;
   z-index: 4;
 }
 
 #table1 tr {
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -459,7 +475,6 @@ body {
 }
 
 #table1 th {
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -468,7 +483,6 @@ body {
 
 #table1 td {
   letter-spacing: 1.1px;
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -489,7 +503,7 @@ body {
   height: 148px;
   overflow-y: auto;
   left: 623.5px;
-  top: 1215.5px;
+  top: 1570px;
   z-index: 5;
 }
 
@@ -508,7 +522,7 @@ body {
   height: 148px;
   overflow-y: auto;
   left: 623.5px;
-  top: 1604px;
+  top: 1939.5px;
   z-index: 6;
 }
 
@@ -526,7 +540,7 @@ body {
   width: 312px;
   height: 148px;
   left: 623.5px;
-  top: 2017.5px;
+  top: 2464px;
   z-index: 5;
 }
 
@@ -534,7 +548,7 @@ body {
 #line2 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 2245px;
+  top: 2725px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -550,7 +564,7 @@ body {
   left: 70px;
   width: 840px;
   height: 48px;
-  top: 2275px;
+  top: 2755px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -568,19 +582,18 @@ body {
   font-family: BenguiatGothicC;
   font-size: 25px;
   letter-spacing: 2px;
-  background-color: #f8f9fa;
+  background-color: none;
   color: #222;
   margin: 1em 0;
   border: 4px solid #a2a9b1;
   border-collapse: collapse;
   left: 22px;
-  top: 2320px;
+  top: 2800px;
   width: 917px;
   z-index: 5;
 }
 
 #table2 tr {
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -589,7 +602,6 @@ body {
 
 #table2 th {
   width: 500px;
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -597,7 +609,6 @@ body {
 }
 
 #table2 td {
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -664,7 +675,7 @@ body {
   left: 70px;
   width: 840px;
   height: 48px;
-  top: 2740px;
+  top: 3220px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -679,19 +690,18 @@ body {
 
 #table3 {
   position: absolute;
-  background-color: #f8f9fa00;
+  background-color: none;
   color: #222;
   margin: 1em 0;
   border: 4px solid #a2a9b1;
   border-collapse: collapse;
   left: 22px;
-  top: 2795px;
+  top: 3275px;
   width: 917px;
   z-index: 5;
 }
 
 #table3 tr {
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -699,7 +709,6 @@ body {
 }
 
 #table3 th {
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -707,7 +716,6 @@ body {
 }
 
 #table3 td {
-  background-color: #ffffff00;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -890,7 +898,7 @@ body {
   left: 60px;
   width: 840px;
   height: 48px;
-  top: 3620px;
+  top: 4100px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -905,20 +913,19 @@ body {
 
 #table4 {
   position: absolute;
-  background-color: #f8f9fa;
+  background-color: none;
   color: #222;
   margin: 1em 0;
   letter-spacing: 1px;
   border: 4px solid #a2a9b1;
   border-collapse: collapse;
   left: 22px;
-  top: 3680px;
+  top: 4155px;
   width: 917px;
   z-index: 5;
 }
 
 #table4 tr {
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -926,7 +933,6 @@ body {
 }
 
 #table4 th {
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -934,7 +940,6 @@ body {
 }
 
 #table4 td {
-  background-color: #ffffff;
   color: #222;
   border: 2px solid #a2a9b1;
   border-collapse: collapse;
@@ -945,7 +950,7 @@ body {
 #line3 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 4125px;
+  top: 4595px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -961,7 +966,7 @@ body {
   left: 60px;
   width: 840px;
   height: 48px;
-  top: 4160px;
+  top: 4630px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -982,7 +987,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 4155px;
+  top: 4625px;
   left: 655px;
   margin: 0px 0;
   opacity: 0;
@@ -1062,7 +1067,7 @@ body {
   -moz-transform: matrix(1.53527440035293, 0, 0, 1.38652876126729, 0, 0);
   -webkit-transform: matrix(1.53527440035293, 0, 0, 1.38652876126729, 0, 0);
   -ms-transform: matrix(1.53527440035293, 0, 0, 1.38652876126729, 0, 0);
-  top: 4240px;
+  top: 4710px;
   left: 175px;
   z-index: 5;
 }
@@ -1072,7 +1077,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 82px;
-  top: 4275px;
+  top: 4745px;
   width: 800px;
   height: 150px;
   z-index: 4;
@@ -1096,7 +1101,7 @@ body {
   position: absolute;
   background-color: rgb(179, 179, 179);
   left: 82px;
-  top: 4425px;
+  top: 4895px;
   width: 800px;
   height: 50px;
 }
@@ -1114,7 +1119,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 82px;
-  top: 4475px;
+  top: 4945px;
   width: 800px;
   height: 150px;
   z-index: 4;
@@ -1138,7 +1143,7 @@ body {
 #line4 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 4905px;
+  top: 5125px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -1154,7 +1159,7 @@ body {
   left: 60px;
   width: 840px;
   height: 48px;
-  top: 4950px;
+  top: 5170px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -1175,7 +1180,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  top: 4945px;
+  top: 5165px;
   left: 545px;
   margin: 0px 0;
   opacity: 0;
@@ -1284,15 +1289,15 @@ body {
 .weapon1 img {
   position: relative;
   width: 180px;
-  height: 165px;
-  top: -205px;
-  left: -50px;
+  height: 180px;
+  top: -274px;
+  left: -30px;
 }
 
 .rarity1 {
   position: relative;
-  left: -10px;
-  top: -208px;
+  left: 0px;
+  top: -277px;
 }
 
 .back_weapon1 img {
@@ -1325,16 +1330,16 @@ body {
 
 .weapon2 img {
   position: relative;
-  width: 150px;
+  width: 180px;
   height: 170px;
-  top: -158px;
-  left: -21px;
+  top: -186px;
+  left: -30px;
 }
 
 .rarity2 {
   position: relative;
-  left: 0px;
-  top: -161px;
+  left: -10px;
+  top: -190px;
 }
 
 .back_weapon2 img {
@@ -1359,7 +1364,7 @@ body {
 .description_w3 {
   position: relative;
   font-family: "CMU_Typewriter_Text_Bold";
-  font-size: 20px;
+  font-size: 18px;
   top: -40px;
   left: 160px;
   width: 440px;
@@ -1367,16 +1372,16 @@ body {
 
 .weapon3 img {
   position: relative;
-  width: 150px;
-  height: 170px;
-  top: -183px;
-  left: -20px;
+  width: 180px;
+  height: 160px;
+  top: -240px;
+  left: -30px;
 }
 
 .rarity3 {
   position: relative;
-  left: 0px;
-  top: -188px;
+  left: -10px;
+  top: -243px;
 }
 
 .back_weapon3 img {
@@ -1431,7 +1436,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 70px;
-  top: 4905px;
+  top: 5125px;
   width: 560px;
   height: 200px;
   opacity: 1;
@@ -1442,7 +1447,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 70px;
-  top: 4905px;
+  top: 5125px;
   width: 560px;
   height: 200px;
 }
@@ -1451,7 +1456,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 70px;
-  top: 4905px;
+  top: 5125px;
   width: 560px;
   height: 200px;
 }
@@ -1462,7 +1467,7 @@ body {
   width: 10px;
   position: relative;
   left: 170px;
-  top: 4985px;
+  top: 5205px;
   z-index: 6;
   transform: rotate(270deg);
 }
@@ -1482,7 +1487,7 @@ body {
   width: 10px;
   position: relative;
   left: 780px;
-  top: 5175px;
+  top: 5395px;
   z-index: 6;
   transform: rotate(90deg);
 }
@@ -1514,7 +1519,7 @@ body {
 #line5 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 5310px;
+  top: 5525px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -1530,7 +1535,7 @@ body {
   left: 65px;
   width: 840px;
   height: 48px;
-  top: 5355px;
+  top: 5570px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -1556,7 +1561,7 @@ body {
   left: 300px;
   width: 840px;
   height: 48px;
-  top: 5460px;
+  top: 5675px;
   z-index: 5;
 }
 
@@ -1564,7 +1569,7 @@ body {
   background-color: rgb(176, 173, 173);
   position: absolute;
   left: 80px;
-  top: 5560px;
+  top: 5775px;
   width: 800px;
   height: 5px;
   z-index: 3;
@@ -1575,7 +1580,7 @@ body {
   background-color: rgb(192, 192, 192);
   position: absolute;
   left: 80px;
-  top: 5500px;
+  top: 5715px;
   width: 800px;
   height: 60px;
 }
@@ -1653,7 +1658,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 80px;
-  top: 5565px;
+  top: 5780px;
   width: 800px;
   height: 180px;
 }
@@ -1694,7 +1699,7 @@ body {
   -ms-transform: scale(1, 0.8);
   position: absolute;
   left: 80px;
-  top: 5700px;
+  top: 5915px;
   width: 800px;
   height: 120px;
   z-index: 3;
@@ -1726,7 +1731,7 @@ body {
   width: 780px;
   height: 70px;
   padding: 10px;
-  top: 5730px;
+  top: 5945px;
   -webkit-animation: fade ease-in 0.5s;
   -moz-animation: fade ease-in 0.5s;
   animation: fade ease-in 0.5s;
@@ -1776,7 +1781,7 @@ body {
   margin: 3px 5px;
   text-align: center;
   width: 30px;
-  top: 5705px;
+  top: 5920px;
   margin-left: 727px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1801,7 +1806,7 @@ body {
   left: 300px;
   width: 840px;
   height: 48px;
-  top: 5865px;
+  top: 6080px;
   z-index: 5;
 }
 
@@ -1809,7 +1814,7 @@ body {
   background-color: rgb(176, 173, 173);
   position: absolute;
   left: 80px;
-  top: 5960px;
+  top: 6175px;
   width: 800px;
   height: 5px;
   z-index: 3;
@@ -1820,7 +1825,7 @@ body {
   background-color: rgb(192, 192, 192);
   position: absolute;
   left: 80px;
-  top: 5900px;
+  top: 6115px;
   width: 800px;
   height: 60px;
 }
@@ -1898,7 +1903,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 80px;
-  top: 5965px;
+  top: 6180px;
   width: 800px;
   height: 180px;
 }
@@ -1928,7 +1933,7 @@ body {
 }
 
 .person_t2 {
-  font-size: 22px;
+  font-size: 25.5px;
   color: rgb(0, 0, 0);
   font-family: "CMU_Typewriter_Text_Bold";
   line-height: 0.9;
@@ -1939,7 +1944,7 @@ body {
   -ms-transform: scale(1, 0.8);
   position: absolute;
   left: 80px;
-  top: 6120px;
+  top: 6335px;
   width: 800px;
   height: 120px;
   z-index: 3;
@@ -1966,7 +1971,7 @@ body {
   width: 780px;
   height: 70px;
   padding: 10px;
-  top: 6130px;
+  top: 6345px;
   -webkit-animation: fade ease-in 0.5s;
   -moz-animation: fade ease-in 0.5s;
   animation: fade ease-in 0.5s;
@@ -2016,7 +2021,7 @@ body {
   margin: 3px 5px;
   text-align: center;
   width: 30px;
-  top: 6105px;
+  top: 6320px;
   margin-left: 727px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2041,7 +2046,7 @@ body {
   left: 300px;
   width: 840px;
   height: 48px;
-  top: 6265px;
+  top: 6480px;
   z-index: 5;
 }
 
@@ -2049,7 +2054,7 @@ body {
   background-color: rgb(176, 173, 173);
   position: absolute;
   left: 80px;
-  top: 6360px;
+  top: 6575px;
   width: 800px;
   height: 5px;
   z-index: 3;
@@ -2060,7 +2065,7 @@ body {
   background-color: rgb(192, 192, 192);
   position: absolute;
   left: 80px;
-  top: 6300px;
+  top: 6515px;
   width: 800px;
   height: 60px;
 }
@@ -2138,7 +2143,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 80px;
-  top: 6365px;
+  top: 6580px;
   width: 800px;
   height: 180px;
 }
@@ -2179,7 +2184,7 @@ body {
   -ms-transform: scale(1, 0.8);
   position: absolute;
   left: 80px;
-  top: 6510px;
+  top: 6725px;
   width: 800px;
   height: 120px;
   z-index: 3;
@@ -2206,7 +2211,7 @@ body {
   width: 780px;
   height: 70px;
   padding: 10px;
-  top: 6530px;
+  top: 6745px;
   -webkit-animation: fade ease-in 0.5s;
   -moz-animation: fade ease-in 0.5s;
   animation: fade ease-in 0.5s;
@@ -2256,7 +2261,7 @@ body {
   margin: 3px 5px;
   text-align: center;
   width: 30px;
-  top: 6505px;
+  top: 6720px;
   margin-left: 727px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2281,7 +2286,7 @@ body {
   left: 300px;
   width: 840px;
   height: 48px;
-  top: 6665px;
+  top: 6880px;
   z-index: 5;
 }
 
@@ -2289,7 +2294,7 @@ body {
   background-color: rgb(176, 173, 173);
   position: absolute;
   left: 80px;
-  top: 6760px;
+  top: 6975px;
   width: 800px;
   height: 5px;
   z-index: 3;
@@ -2300,7 +2305,7 @@ body {
   background-color: rgb(192, 192, 192);
   position: absolute;
   left: 80px;
-  top: 6700px;
+  top: 6915px;
   width: 800px;
   height: 60px;
 }
@@ -2378,7 +2383,7 @@ body {
   background-color: rgb(223, 223, 223);
   position: absolute;
   left: 80px;
-  top: 6765px;
+  top: 6980px;
   width: 800px;
   height: 180px;
 }
@@ -2408,7 +2413,7 @@ body {
 }
 
 .person_t4 {
-  font-size: 24px;
+  font-size: 25.5px;
   color: rgb(0, 0, 0);
   font-family: "CMU_Typewriter_Text_Bold";
   line-height: 0.9;
@@ -2419,7 +2424,7 @@ body {
   -ms-transform: scale(1, 0.8);
   position: absolute;
   left: 80px;
-  top: 6800px;
+  top: 7015px;
   width: 800px;
   height: 120px;
   z-index: 3;
@@ -2446,7 +2451,7 @@ body {
   width: 780px;
   height: 70px;
   padding: 10px;
-  top: 6930px;
+  top: 7145px;
   -webkit-animation: fade ease-in 0.5s;
   -moz-animation: fade ease-in 0.5s;
   animation: fade ease-in 0.5s;
@@ -2496,7 +2501,7 @@ body {
   margin: 3px 5px;
   text-align: center;
   width: 30px;
-  top: 6905px;
+  top: 7120px;
   margin-left: 727px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2512,7 +2517,7 @@ body {
 #line10 {
   background-color: rgb(176, 173, 173);
   position: absolute;
-  top: 7045px;
+  top: 7260px;
   width: 960px;
   height: 5px;
   z-index: 3;
@@ -2528,7 +2533,7 @@ body {
   left: -80px;
   width: 700px;
   height: 48px;
-  top: 7075px;
+  top: 7290px;
   margin: 0px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -2543,7 +2548,7 @@ body {
 
 #video_g {
   position: absolute;
-  top: 7175px;
+  top: 7390px;
   left: 80px;
   z-index: 4;
 }
@@ -2553,7 +2558,7 @@ body {
   position: absolute;
   width: 75px;
   height: 75px;
-  top: 7780px;
+  top: 7995px;
   right: 20px;
   bottom: 50px;
   cursor: pointer;
@@ -2691,7 +2696,7 @@ body {
 
 #svg2 {
   position: absolute;
-  top: 620px;
+  top: 800px;
   left: 180px;
   margin: 0px 0;
   opacity: 0;
@@ -2707,7 +2712,7 @@ body {
 
 #svg3 {
   position: absolute;
-  top: 620px;
+  top: 960px;
   left: 500px;
   margin: 0px 0;
   opacity: 0;
@@ -2723,7 +2728,7 @@ body {
 
 #svg4 {
   position: absolute;
-  top: 1020px;
+  top: 1380px;
   left: 590px;
   margin: 0px 0;
   opacity: 0;
@@ -2739,7 +2744,7 @@ body {
 
 #svg5 {
   position: absolute;
-  top: 860px;
+  top: 1220px;
   left: 695px;
   margin: 0px 0;
   opacity: 0;
@@ -2755,7 +2760,7 @@ body {
 
 #svg6 {
   position: absolute;
-  top: 1450px;
+  top: 1780px;
   left: 550px;
   margin: 0px 0;
   opacity: 0;
@@ -2771,7 +2776,7 @@ body {
 
 #svg7 {
   position: absolute;
-  top: 1225px;
+  top: 1555px;
   left: 775px;
   margin: 0px 0;
   opacity: 0;
@@ -2787,7 +2792,7 @@ body {
 
 #svg8 {
   position: absolute;
-  top: 1862px;
+  top: 2305px;
   left: 50px;
   margin: 0px 0;
   opacity: 0;
@@ -2803,7 +2808,7 @@ body {
 
 #svg9 {
   position: absolute;
-  top: 2185px;
+  top: 2660px;
   left: -215px;
   margin: 0px 0;
   opacity: 0;
@@ -2819,7 +2824,7 @@ body {
 
 #svg10 {
   position: absolute;
-  top: 2770px;
+  top: 3140px;
   left: 134px;
   margin: 0px 0;
   opacity: 0;
@@ -2835,7 +2840,7 @@ body {
 
 #svg11 {
   position: absolute;
-  top: 2635px;
+  top: 3115px;
   left: 780px;
   margin: 0px 0;
   opacity: 0;
@@ -2851,7 +2856,7 @@ body {
 
 #svg12 {
   position: absolute;
-  top: 2770px;
+  top: 3250px;
   left: 645px;
   margin: 0px 0;
   opacity: 0;
@@ -2867,7 +2872,7 @@ body {
 
 #svg13 {
   position: absolute;
-  top: 2865px;
+  top: 3345px;
   left: 570px;
   margin: 0px 0;
   opacity: 0;
@@ -2883,7 +2888,7 @@ body {
 
 #svg14 {
   position: absolute;
-  top: 3460px;
+  top: 3940px;
   left: -210px;
   margin: 0px 0;
   opacity: 0;
@@ -2899,7 +2904,7 @@ body {
 
 #svg15 {
   position: absolute;
-  top: 3315px;
+  top: 3795px;
   left: -105px;
   margin: 0px 0;
   opacity: 0;
@@ -2915,7 +2920,7 @@ body {
 
 #svg16 {
   position: absolute;
-  top: 3965px;
+  top: 4438px;
   left: 510px;
   margin: 0px 0;
   opacity: 0;
@@ -2931,7 +2936,7 @@ body {
 
 #svg17 {
   position: absolute;
-  top: 4020px;
+  top: 4360px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -2947,7 +2952,7 @@ body {
 
 #svg18 {
   position: absolute;
-  top: 4165px;
+  top: 4585px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -2963,7 +2968,7 @@ body {
 
 #svg19 {
   position: absolute;
-  top: 4380px;
+  top: 4740px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -2979,7 +2984,7 @@ body {
 
 #svg20 {
   position: absolute;
-  top: 4780px;
+  top: 5000px;
   left: -235px;
   margin: 0px 0;
   opacity: 0;
@@ -2995,7 +3000,7 @@ body {
 
 #svg21 {
   position: absolute;
-  top: 4675px;
+  top: 4895px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -3011,7 +3016,7 @@ body {
 
 #svg22 {
   position: absolute;
-  top: 4845px;
+  top: 5065px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -3027,7 +3032,7 @@ body {
 
 #svg23 {
   position: absolute;
-  top: 5185px;
+  top: 5400px;
   left: 605px;
   margin: 0px 0;
   opacity: 0;
@@ -3043,7 +3048,7 @@ body {
 
 #svg24 {
   position: absolute;
-  top: 5080px;
+  top: 5295px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -3059,7 +3064,7 @@ body {
 
 #svg25 {
   position: absolute;
-  top: 5225px;
+  top: 5440px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -3075,7 +3080,7 @@ body {
 
 #svg26 {
   position: absolute;
-  top: 5520px;
+  top: 5735px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -3091,7 +3096,7 @@ body {
 
 #svg27 {
   position: absolute;
-  top: 5900px;
+  top: 6115px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -3107,7 +3112,7 @@ body {
 
 #svg28 {
   position: absolute;
-  top: 6320px;
+  top: 6535px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -3123,7 +3128,7 @@ body {
 
 #svg29 {
   position: absolute;
-  top: 6815px;
+  top: 7030px;
   left: -130px;
   margin: 0px 0;
   opacity: 0;
@@ -3139,7 +3144,7 @@ body {
 
 #svg30 {
   position: absolute;
-  top: 6920px;
+  top: 7135px;
   left: 635px;
   margin: 0px 0;
   opacity: 0;
@@ -3155,7 +3160,7 @@ body {
 
 #svg31 {
   position: absolute;
-  top: 6815px;
+  top: 7030px;
   left: 800px;
   margin: 0px 0;
   opacity: 0;
@@ -3171,7 +3176,7 @@ body {
 
 #svg32 {
   position: absolute;
-  top: 7535px;
+  top: 7750px;
   left: -240px;
   margin: 0px 0;
   opacity: 0;
