@@ -410,13 +410,10 @@ body {
   height: 280px;
   top: 840px;
   left: -10px;
-  transition: left 1s cubic-bezier(0, 0, 1, 1) 500ms;
+  transition: left 1s cubic-bezier(0, 0, 1, 1) 400ms;
 }
 
 #qiqi_photo img:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
   top: 840px;
   left: 200px;
   z-index: 3;
@@ -500,11 +497,11 @@ body {
 /*Гіфки*/
 #vertical-menu1 {
   position: absolute;
-  width: 312px;
+  width: 315px;
   height: 148px;
   overflow-y: auto;
-  left: 623.5px;
-  top: 1215.5px;
+  left: 620px;
+  top: 1214.5px;
   z-index: 5;
 }
 
@@ -519,11 +516,10 @@ body {
 
 #vertical-menu2 {
   position: absolute;
-  width: 312px;
+  width: 315px;
   height: 148px;
-  overflow-y: auto;
-  left: 623.5px;
-  top: 1604px;
+  left: 620px;
+  top: 1585px;
   z-index: 6;
 }
 
@@ -531,17 +527,12 @@ body {
   z-index: 6;
 }
 
-#gif1 {
-  font-family: BenguiatGothicC;
-  font-size: 20px;
-}
-
 #vertical-menu3 {
   position: absolute;
-  width: 312px;
+  width: 315px;
   height: 148px;
-  left: 623.5px;
-  top: 2017.5px;
+  left: 620px;
+  top: 1981px;
   z-index: 5;
 }
 
