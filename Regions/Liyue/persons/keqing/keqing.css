@@ -407,8 +407,8 @@ body {
 #keqing_photo img {
   position: absolute;
   width: 340px;
-  height: 420px;
-  top: 1030px;
+  height: 400px;
+  top: 1050px;
   left: 620.5px;
 }
 
@@ -416,7 +416,7 @@ body {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  top: 1004px;
+  top: 1025px;
   left: 603.5px;
   z-index: 5;
 }
