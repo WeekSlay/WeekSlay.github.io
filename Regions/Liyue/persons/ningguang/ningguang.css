@@ -410,6 +410,8 @@ body {
   height: 280px;
   top: 1100px;
   left: 615px;
+  transition: 0.5s;
+  z-index: 3;
 }
 
 #ningguang_photo img:hover {
