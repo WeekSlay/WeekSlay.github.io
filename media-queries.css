@@ -5,6 +5,12 @@
     }
 }
 @media (max-width: 1600px) {
+  .fullscreen__body {
+    max-width: 600px;
+  }
+  .fullscreen__body img {
+    height: 600px;
+  }
     .wrapper {
       height: 100vh;
     }
