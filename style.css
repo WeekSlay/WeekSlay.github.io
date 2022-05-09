@@ -264,6 +264,12 @@ body {
   color: #000000;
   line-height: 0.4;
 }
+#choose_region.element-show {
+  opacity: 1;
+  transition: all 2.3s;
+  transform: translateY(0%);
+  
+}
 
 .persons {
   display: -webkit-box;
@@ -275,7 +281,7 @@ body {
   height: 900px;
 }
 
-.lumin img {
+#lumin img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -284,7 +290,6 @@ body {
   height: 864px;
   top: -100px;
 }
-
 .sulid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,22 +315,35 @@ body {
 }
 
 #li-ue img {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 400px;
   height: 650px;
+  transition: 0.3s;
+
+}
+#li-ue img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #mond img {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 500px;
   height: 750px;
+  transition: 0.3s;
 }
+
+#mond img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 
 #inaz img {
   position: relative;
@@ -335,6 +353,12 @@ body {
   z-index: 1;
   width: 400px;
   height: 650px;
+  transition: 0.3s;
+}
+#inaz img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1.9);
 }
 
 .line_line {
@@ -404,6 +428,12 @@ body {
   left: 25px;
   width: 500px;
   height: 500px;
+  transition: 0.3s;
+}
+#image_map img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .text2 {

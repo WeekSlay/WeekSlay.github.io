@@ -9,7 +9,7 @@ function onEntry(entry) {
 	let options = {
 		threshold: [0.5] };
 	let observer = new IntersectionObserver(onEntry, options);
-	let elements = document.querySelectorAll("#choose_region,#tayvat,#map_tayvat,#text1,#text2,#title_video,#text3,#svg1,#svg2,#svg3,#svg4,#svg5,#svg6");
+	let elements = document.querySelectorAll("#choose_region");
 		 
 	for (let elm of elements) {
 		observer.observe(elm);
