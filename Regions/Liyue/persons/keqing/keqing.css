@@ -410,6 +410,8 @@ body {
   height: 400px;
   top: 1050px;
   left: 620.5px;
+  transition: 0.4s;
+  z-index: 3;
 }
 
 #keqing_photo img:hover {
@@ -418,7 +420,7 @@ body {
   transform: scale(1.1);
   top: 1025px;
   left: 603.5px;
-  z-index: 5;
+  z-index: 3;
 }
 
 /*Основні навики*/
