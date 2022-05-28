@@ -1,18 +1,18 @@
 @font-face {
   font-family: "CMU_Typewriter_Text_Bold";
-  src: url("../../../../fonts/CMU_Typewriter_Text_Bold.otf") format("truetype");
+  src: url("../../../../../fonts/CMU_Typewriter_Text_Bold.otf") format("truetype");
 }
 @font-face {
   font-family: "BaronNeue";
-  src: url("../../../../fonts/BaronNeue.ttf") format("truetype");
+  src: url("../../../../../fonts/BaronNeue.ttf") format("truetype");
 }
 @font-face {
   font-family: "BenguiatGothicC";
-  src: url("../../../../fonts/BenguiatGothicC.ttf") format("truetype");
+  src: url("../../../../../fonts/BenguiatGothicC.ttf") format("truetype");
 }
 @font-face {
   font-family: "Cleanwork";
-  src: url("../../../../fonts/Cleanwork.ttf") format("truetype");
+  src: url("../../../../../fonts/Cleanwork.ttf") format("truetype");
 }
 #fon_scroll {
   overflow-x: hidden;
@@ -23,7 +23,7 @@
   margin-top: -2%;
   background-color: #ffffff;
   background-repeat: no-repeat;
-  background-image: url(../../../image/artefacts_fon.png);
+  background-image: url(../../../../image/artefacts_fon.png);
   background-size: 100%;
   background-position: center center;
   background-attachment: fixed;
@@ -195,7 +195,7 @@
   -ms-transform: scale(1, 0.8);
   position: absolute;
   left: -208px;
-  top: -23px;
+  top: -20px;
   width: 680px;
   height: 120px;
   z-index: 3;
@@ -541,32 +541,14 @@ span {
   z-index: 4;
 }
 #text_set {
-  position: relative;
+  display: flex;
+  width: 910px;
+  justify-content: space-between;
   font-family: "BenguiatGothicC";
-  font-size: 21px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 2px;
   top: 2px;
-}
-#text_set_flower {
-  position: absolute;
-  left: 10px;
-}
-#text_set_feathers {
-  position: absolute;
-  left: 205px;
-}
-#text_set_watch {
-  position: absolute;
-  left: 378px;
-}
-#text_set_cup {
-  position: absolute;
-  left: 568px;
-}
-#text_set_crown {
-  position: absolute;
-  left: 735px;
 }
 
 #set img {
@@ -809,8 +791,9 @@ span {
 
 /*Квадрат*/
 #rectangle_black {
-  position: absolute;
+  display: flex;
   background-color: #000000;
+  color: white;
   grid-area: foot;
   max-width: 100%;
   width: 100%;
@@ -818,75 +801,84 @@ span {
   left: 0;
   z-index: 7;
 }
-#rights {
-  position: absolute;
-  font-family: "Cleanwork";
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #cacaca;
-  top: 135px;
-  left: 10px;
-  width: 600px;
-  height: 20px;
-}
-#hoyoimpact {
-  position: absolute;
+
+.all_foot {
+  display: flex;
+  justify-content: space-between;
   font-family: "BaronNeue";
+  width: 100%;
+  height: 200px;
+}
+
+#rights {
+  display: flex;
+  justify-content: center;
+  font-family: "BenguiatGothicC_Bold";
+  font-size: 14px;
+  height: 190px;
+  width: 500px;
+  margin-left: -30px;
+  align-items: flex-end;
+  color: #cacaca;
+}
+
+.logo_all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+#hoyoimpact {
   font-size: 45px;
   letter-spacing: 1px;
-  color: #ffffff;
-  top: 140px;
-  left: 775px;
+  margin-left: -50px;
 }
+
 #logo img {
-  position: absolute;
   width: 140px;
   height: 140px;
-  left: 850px;
-  top: 10px;
+  margin-left: -50px;
 }
-#number {
-  position: absolute;
-  font-family: "BaronNeue";
-  font-size: 25px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  top: 55px;
-  left: 1643px;
-  width: 220px;
-  height: 20px;
-}
+
 #email {
-  position: absolute;
-  font-family: "BaronNeue";
   font-size: 25px;
   letter-spacing: 1px;
-  color: #ffffff;
-  top: 90px;
-  left: 1459px;
-  width: 20px;
-  height: 20px;
+  margin-bottom: 10px;
 }
+
 #instagram img {
-  position: absolute;
   width: 50px;
   height: 50px;
-  top: 133px;
-  left: 1800px;
+  margin-right: 4px;
 }
+
 #twitter img {
-  position: absolute;
   width: 50px;
   height: 50px;
-  top: 133px;
-  left: 1730px;
+  margin-right: 10px;
 }
+
 #youtube img {
-  position: absolute;
   width: 50px;
   height: 50px;
-  top: 133px;
-  left: 1660px;
+  margin-right: 10px;
+}
+
+.social_network {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.rig {
+  position: relative;
+  bottom: 4%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  height: 200px;
+  left: -10px;
 }
 
 /*SVG*/
